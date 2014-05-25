@@ -1,5 +1,5 @@
 {
-  "name": "imap-server",
+  "name": "Boosto",
   "version": "0.0.1",
   "description": "An IMAP server in node.js",
   "main": "index.js",
@@ -8,12 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baudehlo/node-imap-server.git"
+    "url": "https://github.com/baudehlo/Boosto.git"
   },
   "keywords": [
     "IMAP",
     "Email"
   ],
   "author": "Matt Sergeant <matt@sergeant.org>",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "nopt": "~2.2.1",
+    "async": "~0.9.0",
+    "npid": "~0.4.0",
+    "daemon": "~1.1.0",
+    "semver": "~2.3.0"
+  }
 }
